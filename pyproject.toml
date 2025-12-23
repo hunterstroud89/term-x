@@ -14,4 +14,4 @@ dependencies = [
 ]
 
 [project.scripts]
-term-x = "main:main"
+term-x = "__init__:main"
