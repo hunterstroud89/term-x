@@ -1,0 +1,4 @@
+id: todo
+name: Todo
+description: Task list
+hints: "Commands: add [task] | done [id] | list"

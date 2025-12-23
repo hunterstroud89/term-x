@@ -1,0 +1,4 @@
+id: notes
+name: Notes
+description: Simple note taking
+hints: "Commands: new [title] | list"

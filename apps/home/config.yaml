@@ -1,0 +1,4 @@
+id: home
+name: Home
+description: Welcome screen
+hints: "Commands: open [app] | ls | help"
