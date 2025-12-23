@@ -2,44 +2,24 @@
 
 A real terminal application built with Python and Textual.
 
-## Quick Install
+## Install
 
 ```bash
-# Clone the repo
 git clone https://github.com/hunterstroud89/term-x.git
 cd term-x
-
-# Run it (auto-installs dependencies first time)
-./run.sh
+sudo ln -s "$(pwd)/run.sh" /usr/local/bin/term-x
 ```
 
-## Install Globally (so you can run `term-x` from anywhere)
+Now just type `term-x` from anywhere!
 
-```bash
-cd term-x
-
-# Create launcher
-echo '#!/bin/bash
-cd "$(dirname "$0")"
-python3 main.py' > term-x
-chmod +x term-x
-
-# Add to PATH
-sudo ln -s "$(pwd)/term-x" /usr/local/bin/term-x
-```
-
-Now just type `term-x` anywhere!
-
-## Update to Latest Version
+## Update
 
 ```bash
 cd term-x
 git pull
 ```
 
-## Requirements
-- Python 3.7+
-- Textual library (auto-installed by run.sh)
+That's it!
 
 ## Keyboard Shortcuts
 - `↑↓` - Navigate apps

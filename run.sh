@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# Term-X Auto-Setup and Run Script
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
 
 # Create virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
