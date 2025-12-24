@@ -1,25 +1,31 @@
-# Term-X - Python Terminal UI
+# Term-X
 
-A real terminal application built with Python and Textual.
+A Python terminal application with simple app building blocks.
 
 ## Install
 
 ```bash
 git clone https://github.com/hunterstroud89/term-x.git
 cd term-x
-sudo ln -s "$(pwd)/run.sh" /usr/local/bin/term-x
+./install.sh
 ```
 
-Now just type `term-x` from anywhere!
+Now run `term-x` from anywhere!
 
 ## Update
 
 ```bash
 cd term-x
 git pull
+./install.sh
 ```
 
-That's it!
+## Uninstall
+
+```bash
+sudo rm /usr/local/bin/term-x
+rm -rf ~/term-x  # or wherever you cloned it
+```
 
 ## Keyboard Shortcuts
 - `↑↓` - Navigate apps
